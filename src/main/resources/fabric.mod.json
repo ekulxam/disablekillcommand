@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "disable_kill_command",
+	"version": "${version}",
+	"name": "Disable Kill Command",
+	"description": "Removes the functionality of /kill",
+	"authors": [
+		"Survivalblock"
+	],
+	"contact": {
+		"homepage": "https://github.com/ekulxam/disablekillcommand",
+		"sources": "https://github.com/ekulxam/disablekillcommand",
+		"issues": "https://github.com/ekulxam/disablekillcommand/issues"
+	},
+	"license": "MIT-0",
+	"icon": "assets/disable_kill_command/icon.png",
+	"environment": "*",
+	"entrypoints": {
+	},
+	"mixins": [
+		"disable_kill_command.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15",
+		"minecraft": ">=1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
